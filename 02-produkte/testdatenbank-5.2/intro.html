@@ -1,0 +1,102 @@
+<div style="border-left:5px solid #28756a;padding:18px 22px;background:#f1f7f5;border-radius:8px;margin-bottom:18px"><p style="margin:0 0 6px;color:#34645c;font-size:12px;font-weight:700;letter-spacing:.08em">STRICKHOF · MOODLE 5.2</p><h3 style="margin:0 0 10px;color:#193e38">Gemeinsam sicher durch die Migration</h3><p style="margin:0">Teste auf <a href="https://moodlestaging.strickhof.ch">moodlestaging.strickhof.ch</a> und halte hier Deine Ergebnisse fest. Die Protokolle liegen auf <a href="https://moodle.strickhof.ch">moodle.strickhof.ch</a>.</p></div><details><summary><strong>Anleitung, Umgebung und Dokumentation öffnen</strong></summary><div style="padding:16px 0"><p>Mit dieser Datenbank dokumentieren wir gemeinsam die Tests der Moodle-Migration. Halte fest, welchen Vorgang Du geprüft hast, welches Ergebnis Du erwartest und was tatsächlich passiert ist. Dokumentiere auch erfolgreiche Tests.</p>
+<p>Die Testprotokolle führen wir auf <a href="https://moodle.strickhof.ch">moodle.strickhof.ch</a>. Die eigentlichen Tests führst Du in Deinen dafür vorgesehenen Testkursen auf <a href="https://moodlestaging.strickhof.ch">moodlestaging.strickhof.ch</a> durch. Dadurch bleiben die Protokolle beim Erneuern der Testinstanz erhalten.</p>
+<p><strong>Umgebung und Instanzen</strong></p>
+<table>
+<thead>
+<tr>
+<th>Angabe</th>
+<th>Wert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moodle SaaS</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>Speicherplatz / Disc quota</td>
+<td>800 GB</td>
+</tr>
+<tr>
+<td>Moodle-Version für das Vorhaben</td>
+<td>5.2</td>
+</tr>
+<tr>
+<td>TEST-Migration Domain</td>
+<td><a href="https://moodlestaging.strickhof.ch">moodlestaging.strickhof.ch</a></td>
+</tr>
+<tr>
+<td>PROD-Migration: Production instance, bestehend</td>
+<td><a href="https://moodle.strickhof.ch">moodle.strickhof.ch</a></td>
+</tr>
+<tr>
+<td>PROD-Migration: Staging instance</td>
+<td><a href="https://moodlestaging.strickhof.ch">moodlestaging.strickhof.ch</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Dokumentation</strong></p>
+<ul>
+<li><a href="https://track.liip.ch/projects/STR/articles/STR-A-3/TEST-Instanz-TODOs-Tasks">TEST-Instanz: TODOs / Tasks</a></li>
+<li><a href="https://track.liip.ch/projects/STR/articles/STR-A-2/Check-Liste-DE-Inhalt-LookFeel-Konsistenz">Check-Liste (DE) Inhalt, Look+Feel, Konsistenz</a></li>
+</ul>
+<p><strong>Vor dem Testen</strong></p>
+<ol>
+<li>Öffne die Liste der vorbereiteten Testfälle und prüfe Deine Zuteilung. Noch nicht durchgeführte Tests tragen das Ergebnis «Noch offen».</li>
+<li>Prüfe, welchen Browser, welche Rolle und welche Testmaterialien Du für den Vorgang brauchst. Für Abgaben, Buchungen, Bewertungen und Sichtbarkeit verwendest Du ein eingeschriebenes Lernenden-Testkonto.</li>
+<li>Kontrolliere vor dem Start die Adresse: Die zu testende Aktivität muss auf <code>moodlestaging.strickhof.ch</code> liegen.</li>
+<li>Verwende die vereinbarte Teststand-Kennung. Nach einer bereitgestellten Korrektur wird ein neuer Teststand festgehalten, damit sich Ergebnisse zuordnen lassen.</li>
+</ol>
+<p>Testbeginn, Rückmeldefrist und die Verteilung auf Personen und Browser werden vor dem Start von Thomas ergänzt.</p>
+<p><strong>Einen Test dokumentieren</strong></p>
+<p>Ein Eintrag steht für einen konkreten Testfall, eine testende Person, einen Browser mit Gerät und einen Durchlauf. Beispiel: «Eine Datei als Lernende abgeben». Für einen weiteren Browser oder einen Nachtest entsteht ein eigener Eintrag mit derselben Testfall-ID.</p>
+<ol>
+<li>Öffne den passenden vorbereiteten Eintrag. Ergänze bei Bedarf einen zusätzlichen Testfall mit eindeutigem Kurztitel und stimme die Testfall-ID mit Thomas ab.</li>
+<li>Führe die beschriebenen Schritte aus. Ergänze Abweichungen und nötige Voraussetzungen, damit der Vorgang wiederholt werden kann.</li>
+<li>Trage die tatsächlich testende Person, Rolle, Browser-Version, Betriebssystem, Gerät, Teststand und Testdatum ein.</li>
+<li>Ergänze den direkten Link zur geprüften Stelle auf der Testinstanz.</li>
+<li>Beschreibe das tatsächliche Ergebnis und wähle den passenden Ergebnisstatus.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Testergebnis</th>
+<th>Wann verwenden?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Noch offen</td>
+<td>Der geplante Test wurde noch nicht durchgeführt.</td>
+</tr>
+<tr>
+<td>Bestanden</td>
+<td>Die Schritte wurden durchgeführt und das erwartete Ergebnis ist eingetreten.</td>
+</tr>
+<tr>
+<td>Fehler</td>
+<td>Das tatsächliche Ergebnis weicht vom erwarteten Ergebnis ab.</td>
+</tr>
+<tr>
+<td>Blockiert</td>
+<td>Eine Voraussetzung fehlt und verhindert die Prüfung. Beschreibe das Hindernis.</td>
+</tr>
+<tr>
+<td>Entfällt</td>
+<td>Der Test wird begründet aus dem Umfang genommen. Thomas bestätigt die Entscheidung.</td>
+</tr>
+</tbody>
+</table>
+<p>Bei einem erfolgreichen Test genügt eine kurze konkrete Beobachtung, etwa «Die abgegebene Datei ist für die Lehrperson sichtbar und lässt sich öffnen».</p>
+<p><strong>Ein Problem melden</strong></p>
+<p>Ergänze bei einem Fehler die genaue Beobachtung und gegebenenfalls den Wortlaut der Fehlermeldung. Halte fest, ob sich das Problem wiederholen lässt und welche Auswirkungen es auf den Unterricht hat. Füge einen hilfreichen Screenshot oder eine Testdatei bei, wenn damit der Fehler verständlicher wird.</p>
+<ul>
+<li>Kritisch: Ein zentraler Vorgang ist unmöglich, wesentliche Daten oder Ergebnisse gehen verloren oder es besteht unzulässiger Zugriff. Informiere Thomas umgehend.</li>
+<li>Erheblich: Eine wichtige Funktion ist beeinträchtigt; eine Übergangslösung ist möglich oder nur ein Teil der Nutzung betroffen.</li>
+<li>Gering: Ein begrenztes Darstellungs- oder Komfortproblem; der Vorgang bleibt korrekt ausführbar.</li>
+</ul>
+<p>Setze bei einem neuen Fehler den Bearbeitungsstatus auf «Neu». Thomas klärt die Meldung und ergänzt Zuständigkeit, Ticketverweis und nächsten Schritt. Wenn Du denselben Fehler in einem anderen Test beobachtest, verlinke den bereits vorhandenen Eintrag.</p>
+<p><strong>Korrekturen nachtesten</strong></p>
+<p>Nach Bereitstellung einer Korrektur wird der neue Teststand angegeben und ein Nachtest zugeteilt. Erfasse den Nachtest als eigenen Durchlauf und verlinke den ursprünglichen Eintrag. Das frühere Testergebnis bleibt erhalten. Thomas schliesst die Bearbeitung anhand des dokumentierten Nachtests ab oder hält einen ausdrücklichen Entscheid zum verbleibenden Problem fest.</p>
+<p><strong>Testing abschliessen</strong></p>
+<p>Prüfe vor Deiner abschliessenden Rückmeldung, ob Deine zugeteilten Tests vollständig dokumentiert sind. Weise ausdrücklich auf offene Fehler und blockierte Vorgänge hin. Thomas führt die Rückmeldungen zusammen und dokumentiert den Go/No-Go-Entscheid.</p></div></details>
